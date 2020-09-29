@@ -1,10 +1,13 @@
 {
-  "name": "node-apollo",
-  "version": "1.2.1",
+  "name": "node-apollo2",
+  "version": "1.0.0",
   "description": "携程Apollo配置中心SDK。",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "publishConfig": {
+    "registry": "http://192.168.150.59:8081/repository/npm-hosted/"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,7 @@
   },
   "dependencies": {
     "dotenv": "^4.0.0",
+    "express": "^4.17.1",
     "urllib": "^2.28.1"
   }
 }
